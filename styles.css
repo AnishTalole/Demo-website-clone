@@ -1,0 +1,234 @@
+
+.body{
+    font-family:"Inter",sans-serif;
+    font-weight: 400;
+    line-height:28px;
+    font-size: 14px;
+    color:#6a6a6a;
+    background-color: #eff2f1;
+}
+.navbar{
+    background-color: #3B5D50;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.navbar>.container{
+    display: flex;
+    flex-wrap: inherit;
+    margin: 0px 99.6px;
+    align-items: center;
+}
+.navbar>.container>a.navbar-brand{
+    color:white;
+    font-size: 32px;
+    font-weight:600;
+    font-family: "Inter",sans-serif;
+    margin: 0px 16px 0px 0px;
+    padding:5px 0px;
+}
+ul.navbar-nav{
+    font-size:14px;
+    margin:0px 0px 0px 488.5px;
+}
+a.nav-link{
+    font-size: 14px;    
+    font-family: "Inter",sans-serif;
+    justify-content: space-between;
+    padding:8px;
+    color:white;
+    opacity:0.5;
+
+}
+.front-section{
+    width:100%;
+    height:532px;
+    background: #3B5D50;
+    padding:98px 0px 128px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.front-section .container p.mb-4{
+    font-size: 14px;
+    font-family: "Inter",sans-serif;
+}
+.front-section .container h1{
+    font-size:54px;
+    color:white;
+}
+.product-section{
+    padding: 112px 0px; 
+    color: #6a6a6a;
+}
+.product-section>.container>.row>.firstsection>.btn{
+    font-weight:600;
+    padding:12px 30px;
+    border-radius:30px;
+    color:white;
+    background:#2f2f2f;
+    border-color:#2f2f2f;
+}
+*{
+    box-sizing: border-box;
+}
+.product-section>.product-item>h3{
+    color:#2f2f2f;
+    font-weight: 600;
+    font-size:16px;     
+}
+.row{
+    display:flex;
+    flex-wrap:wrap; 
+}
+.img-fluid{
+    max-width:100%;
+    height:auto;
+}
+.product-section>.product-title{
+    justify-content:center;
+}
+.product-section a.product-thumbnail{
+    margin-bottom:30px;
+}
+.why-choose-section{
+    padding:112px 0px;
+}
+.why-choose-section>.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.why-choose-section>.container>.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.help-section{
+    padding:112px 0px;
+}
+.help-section>.container>.row{
+    display:flex;
+}
+.help-section>.imgs-grid{
+    display:grid;
+}
+.help-section .imgs-grid .grid .grid-1{
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+.help-section .imgs-grid .grid-2{
+   position:relative;
+   left:520px;
+   bottom:600px;
+
+}
+.help-section .imgs-grid .grid-3{
+    position:relative;
+    left:365px;
+    bottom:575px;
+}
+.custom-list li{
+    display:inline-block;
+    position:relative;
+    margin-bottom:12px;
+    padding-left:20px; 
+
+}
+
+.popular-product{
+    padding:0 0 7rem 0;
+}
+.popular-product>.container>.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.popular-product .product-item-sm h3 {
+    font-size:14px;
+    font-weight:700;
+    color:#2f2f2f;
+    margin:0px 0px 8px;
+}
+.popular-product .product-item-sm .pt-3{
+    padding-top:1rem;
+}
+.popular-product .product-item-sm p{
+    font-size:14px;
+    margin:0px 0px 10px;    
+}
+.popular-product .product-item-sm .thumbnail{
+    margin-right:10px;
+    flex:0px 0px 120px;
+    position:relative;  
+}
+
+.testimonial-section{
+    padding:48px 0px 112px;
+}
+.testimonial-section .container .row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.testimonial-section .container .row .col-lg-8 *.mx-auto{
+    margin-right:auto;
+    margin-left:auto;
+}
+.testimonial-section .container .row .testimonial-slider-wrap{
+    position:relative;
+}
+.testimonial-section .container .row .testimonial-slider-wrap .tns-nav{
+    position:absolute;
+    bottom:-50px;
+    left:50%;
+}
+
+
+.blog-section{
+    padding:7rem 0 12rem 0;
+}
+.blog-section .container .row .more{
+    padding-top:10px;
+}
+
+
+.footer-section{
+    background-color: white;
+}
+
+.footer-section .sofa-img img{
+    max-width: 380px;
+    position: relative;
+    top: 200px;
+    left:900px
+    
+}
+.footer-section .links-wrap{
+    margin-top:54px;
+}
+.footer-section .col-lg-8{
+    flex: 0 0 auto;
+    font-size:14px;
+    font-family: "Inter",sans-serif;
+    margin:48px 0px 0px;
+    padding:0px 24px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: black;
+}
+.footer-section .links-wrap ul li {
+    margin-bottom: 10px;
+}
+.footer-section .custom-social ul{
+    display:flex;
+}
+.footer-section .custom-social li a {
+    width:40px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    display:inline-block;
+    background:#dce5e4;
+    color:#3b5d50;
+    border-radius: 50%;
+}
